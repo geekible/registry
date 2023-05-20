@@ -13,8 +13,9 @@ type ServiceName string
 const (
 	RegistrySpokeService = ServiceName("RegistryService")
 	LogService           = ServiceName("LogService")
-	GradingService       = ServiceName("GradingService")
-	TeacherPortal        = ServiceName("TeacherPortal")
+	EmailService         = ServiceName("EmailService")
+	TideService          = ServiceName("TideService")
+	MarinaService        = ServiceName("MarinaService")
 )
 
 type patchEntry struct {
